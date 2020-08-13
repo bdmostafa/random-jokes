@@ -1,0 +1,62 @@
+body {
+    background-image: linear-gradient(90deg, rgb(107, 96, 96), rgba(131, 86, 3, 0.801));
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+button {
+    background: none;
+    color: white;
+    border: none;
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+button:hover {
+    color: wheat;
+    font-weight: bold;
+}
+
+#jokes-area {
+    margin: 0 auto;
+    pointer-events: none;
+    border: 1px solid rgba(255, 255, 255, 0.466);
+    background: none;
+    border-radius: .5rem;
+    padding: 2rem;
+    font-size: 18px;
+    line-height: 2rem;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    float: left;
+    margin-right: 1.5rem;
+    padding: .25rem;
+    margin-bottom: 1rem;
+}
+
+li:hover {
+    color: wheat;
+    font-weight: bold;
+}
+
+footer a {
+    color: wheat;
+    text-decoration: none;
+}
+
+footer a:hover {
+    font-weight: bold;
+    color: rgba(245, 222, 179, 0.541);
+}
