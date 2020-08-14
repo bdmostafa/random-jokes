@@ -1,8 +1,9 @@
 body {
-    background-image: linear-gradient(90deg, rgb(107, 96, 96), rgba(131, 86, 3, 0.801));
+    background-image: linear-gradient(90deg, rgb(107, 96, 96), rgba(3, 131, 131, 0.582));
     color: white;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    min-height: 100vh;
 }
 
 button {
@@ -20,8 +21,19 @@ button:hover {
     font-weight: bold;
 }
 
-#jokes-area {
+.marked {
+    color: rgb(112, 74, 4);
+    font-weight: bold;
+}
+
+.name-area,
+.category-list-area,
+.jokes-area {
+    width: 40%;
     margin: 0 auto;
+}
+
+#jokes-area {
     pointer-events: none;
     border: 1px solid rgba(255, 255, 255, 0.466);
     background: none;
@@ -33,8 +45,6 @@ button:hover {
     font-family: 'Courier New', Courier, monospace;
     align-items: center;
     justify-content: center;
-    display: flex;
-    box-sizing: border-box;
 }
 
 li {
@@ -54,9 +64,10 @@ li:hover {
 footer a {
     color: wheat;
     text-decoration: none;
+    font-size: 1rem;
 }
 
 footer a:hover {
     font-weight: bold;
-    color: rgba(245, 222, 179, 0.541);
+    color: rgb(112, 74, 4);
 }
